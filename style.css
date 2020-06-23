@@ -1,12 +1,22 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,8 +46,30 @@ a {
   margin: 0 auto;
 }
 
-.top-menu {
+.partner-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: lavenderblush;
 }
+
+.partner {
+  float: left;
+  width: 33%;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  columns: #5f5d5f;
+  ;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.top-menu {}
 
 .icon {
   float: left;
@@ -199,51 +231,51 @@ a {
 
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 
 }
 
 
 a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
 
 a:hover {
-    color: red;
-    animation-duration: all 1s;
+  color: red;
+  animation-duration: all 1s;
 }
 
 
 li {
-    list-style: none;
+  list-style: none;
 
 
 }
 
 ul {
-    padding-left: 0;
-    line-height: 20px;
+  padding-left: 0;
+  line-height: 20px;
 }
 
 
 .fa:hover {
-    color: red;
-    animation-duration: all 1s;
+  color: red;
+  animation-duration: all 1s;
 }
 
 h3 {
-    color: white;
-    font-size: 16px;
-    margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 /*footer isi*/
 footer {
-  width: 100%;   
+  width: 100%;
   background-color: #003d6a;
   color: white;
   padding-top: 30px;
@@ -251,11 +283,11 @@ footer {
 }
 
 .content-footer {
-    display: flex;
-    background-color: #003d6a;
-    width: 100%;
-    position: sticky;
-    padding-bottom: 10px;
+  display: flex;
+  background-color: #003d6a;
+  width: 100%;
+  position: sticky;
+  padding-bottom: 10px;
 
 }
 
@@ -263,83 +295,83 @@ footer {
 .content-kiri2,
 .content-kanan1,
 .content-kanan2 {
-    flex: auto;
-    padding-left: 10px;
-    font-size: 12px;
-    flex: 1;
+  flex: auto;
+  padding-left: 10px;
+  font-size: 12px;
+  flex: 1;
 }
 
 .content-kiri1 {
-    flex: 2;
+  flex: 2;
 }
 
 .copyright {
-    width: 100%;
-    background-color: #ffcb05;
+  width: 100%;
+  background-color: #ffcb05;
 
 }
 
 .copyright p {
-    margin: 0 auto;
-    padding-top: 15px;
-    height: 50px;
-    font-size: 14px;
-    text-align: center;
-    color: #003d6a;
+  margin: 0 auto;
+  padding-top: 15px;
+  height: 50px;
+  font-size: 14px;
+  text-align: center;
+  color: #003d6a;
 }
 
 .logo-footer {
-    width: 250px;
-    margin-top: 50px;
-    margin-left: 50px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 
 /* Untuk Tablet */
 @media (max-width: 1000px) {
-    .content-footer {
-        flex-wrap: wrap;
-    }
+  .content-footer {
+    flex-wrap: wrap;
+  }
 
-    .content-kiri1,
-    .content-kiri2,
-    .content-kanan1,
-    .content-kanan2 {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
+  .content-kiri1,
+  .content-kiri2,
+  .content-kanan1,
+  .content-kanan2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-    footer {
-        text-align: center;
-    }
+  footer {
+    text-align: center;
+  }
 }
 
 /* Untuk Smartphone */
 @media (max-width:670px) {
 
-    /* Tetapkan flex-direction milik .flex-list */
-    .content-footer {
-        flex-direction: column;
-        padding-bottom: 50px;
-    }
+  /* Tetapkan flex-direction milik .flex-list */
+  .content-footer {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
 
-    /* Tetapkan margin dari .flex-list li ke 0 auto */
-    .content-kiri1,
-    .content-kiri2,
-    .content-kanan1,
-    .content-kanan2 {
-        width: 100%;
-        padding-bottom: 20px;
-        text-align: center;
-    }
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .content-kiri1,
+  .content-kiri2,
+  .content-kanan1,
+  .content-kanan2 {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+  }
 
-    .logo-footer {
-        padding-bottom: 30px;
-    }
+  .logo-footer {
+    padding-bottom: 30px;
+  }
 
 
-    footer {
-        text-align: center;
-    }
+  footer {
+    text-align: center;
+  }
 }
